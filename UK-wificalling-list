@@ -1,0 +1,14 @@
+# ---- Giffgaff / O2 WiFi Calling ----
+
+# O2 UK IMS/VoWiFi
+DOMAIN-SUFFIX,3gppnetwork.org,UK
+DOMAIN-KEYWORD,epdg,UK
+DOMAIN-KEYWORD,ims,UK
+
+# Giffgaff / O2 UK 常用 IP 段
+IP-CIDR,46.68.0.0/17,UK   # O2 UK / Giffgaff
+IP-CIDR,87.194.0.0/16,UK  # O2 UK
+IP-CIDR,88.82.0.0/19,UK   # CMLink UK / 共享段
+
+# 保险：所有英国 IP 都走英国节点
+GEOIP,GB,UK
