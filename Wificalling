@@ -1,0 +1,21 @@
+# ==== Giffgaff / O2 VoWiFi 万能分流规则（中国可用） ====
+
+# VoWiFi 核心域名
+DOMAIN-KEYWORD,epdg
+DOMAIN-KEYWORD,ims
+DOMAIN-KEYWORD,voip
+DOMAIN-KEYWORD,o2
+DOMAIN-KEYWORD,giffgaff
+DOMAIN-SUFFIX,3gppnetwork.org
+DOMAIN-SUFFIX,ims.o2.co.uk
+DOMAIN-SUFFIX,epdg.o2.co.uk
+
+# 已知 O2 UK / Giffgaff IMS IP 段（保险覆盖）
+IP-CIDR,46.68.0.0/17
+IP-CIDR,87.194.0.0/16
+IP-CIDR,88.82.0.0/19
+IP-CIDR,149.254.0.0/16
+IP-CIDR,185.82.0.0/16
+
+# 英国 IP 全匹配（备用，确保注册成功）
+GEOIP,GB
